@@ -226,7 +226,7 @@ namespace Workforce.Controllers
                 SET FirstName = '{model.Instructor.FirstName}',
                     LastName = '{model.Instructor.LastName}',
                     SlackHandle = '{model.Instructor.SlackHandle}',
-                    Specialty = '{model.Instructor.Specialty}'
+                    Specialty = '{model.Instructor.Specialty}',
                     CohortId = {model.Instructor.CohortId}
                 WHERE Id = {id}";
 
